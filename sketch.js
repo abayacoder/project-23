@@ -59,7 +59,7 @@ function keyPressed() {
     Matter.Body.setStatic(packageBody,false)
 	redbox.isStatic(20,200)
 	sides=(100,20)
-	//when we press the down arrow 
+	//when we press the down arrow  and the package stay inside the redbox
 	if (DOWN_ARROW(package)){
 		package.restitution=0
 	}
